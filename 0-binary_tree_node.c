@@ -4,7 +4,7 @@
  * Description: that function to create a node in Binary tree
  * @parent: the parent to the node to be created
  * @value: the data to be hold in node
- * Return: pointer to node (success) Or NULL(fail)
+ * Return: pointer to node (success) Or NULL (fail)
  */
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 {
