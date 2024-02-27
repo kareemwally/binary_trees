@@ -1,1 +1,1 @@
-binary_trees in C
+The binary_trees implementation in C
