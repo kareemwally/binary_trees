@@ -8,14 +8,16 @@
  */
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 {
-    binary_tree_t *res = malloc(sizeof(binary_tree_t));
-    if(value == NULL || res == NULL)
-    {
-        return (NULL);
-    }
-    res->n = value;
-    res->parent = parent;
-    res->left = NULL;
-    res->right = NULL;
-    return (res);
+	binary_tree_t *res;
+
+	res = malloc(sizeof(binary_tree_t));
+	if (res == NULL || !(value))
+	{
+		return (NULL);
+	}
+	res->n = value;
+	res->parent = parent;
+	res->left = NULL;
+	res->right = NULL;
+	return (res);
 }
