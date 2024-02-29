@@ -3,7 +3,7 @@
  * binary_tree_sibling - Function
  * Description: to find the sibling node of some node
  * @node: the node to find its sibling
- * Returb: (pointer)
+ * Return: (pointer)
  */
 binary_tree_t *binary_tree_sibling(binary_tree_t *node)
 {
